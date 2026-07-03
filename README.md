@@ -10,6 +10,18 @@
 
 Used on the Lifts page to pull accessory exercises for each competition lift (e.g. back/biceps exercises for the pull-up, triceps/chest for the dip). Results are filtered and fall back to a curated static list if the API call fails.
 
+## AI Usage Appendix
+**AI Tool used:** Claude
+
+**Some of AI prompts used:**
+- I want to build a website that anyone can use to get into streetlifting as a beginner. Research from Reddit to see what tools athlete use most often, and based on that recommend ideas for tools to include in this project, and output a markdown design document that we can use to start building.
+- Based on the design plan, generate scaffolding for the project.
+- Fill in the website with actual content instead of the Lorem Ipsum dummy texy.
+
+**Some of what it got wrong:**
+- The content Claude filled up the pages was horrible: cheesy copy and headlines, absurd numbers as records and generic explanations for each benchmarks on the lifts.
+- The Warm-up generator was outputting 5+ sets by default, regardless if the input specified 50kg on a lift or 180kg+ which can be either really fatiguing without any benefits, or plain dangerous for the user.
+- 
 ## Project Description
 
 HERCULES is a multi-page site for streetlifting, a strength sport combining calisthenics and powerlifting (weighted pull-ups, weighted dips, barbell squat, weighted muscle-up). It has three pages:
