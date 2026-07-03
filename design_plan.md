@@ -1,8 +1,6 @@
 # STREETLIFTING — Design Document
-**Full Stack Development · Final Project 2026**  
-**Marc Gedeon · Lebanese University, Faculty of Engineering**
+# This file is deprecated and has not been updated since the beggining of development.
 
----
 
 ## 1. Project Overview
 
@@ -281,42 +279,3 @@ First-week targets set at 60–70% of stated max to prioritize technique over lo
 - [ ] Meaningful commit history (not one bulk commit)
 
 ---
-
-## 8. Version Control Strategy
-
-Recommended commit sequence to demonstrate process to the professor:
-
-```
-Initial commit — project structure and empty files
-Add CSS design system and global styles
-Build home page HTML structure
-Add hero section and sport introduction content
-Implement self-assessment JS class
-Add lifts page HTML — pull-up and dip panels
-Add lifts page HTML — squat and muscle-up panels
-Implement LiftTabs ES6 class
-Implement AccessoryLoader with API Ninjas integration
-Add API fallback and loading/error states
-Build start training page HTML structure
-Implement WeightClassFinder dashboard class
-Implement AttemptCalculator class
-Implement ProgramBuilder class with session templates
-Add responsive styles and mobile navigation
-Fix attempt rounding to 2.5kg increments
-Fix accessory filter targeting correct container
-Final polish — animations, hover states, typography
-Add README, design doc, and evidence screenshots
-```
-
----
-
-## 9. Known Limitations & Future Improvements
-
-| Limitation | Future Fix |
-|---|---|
-| No user accounts — program not saved between sessions | Add Supabase auth + database |
-| Standards data is hardcoded — not live from a database | Build an admin panel to update records |
-| No actual competition data / results | Scrape or manually add real competition results |
-| Program builder generates Week 1 only | Build a full 12-week progressive program generator |
-| API key exposed client-side | Move API call to a serverless function (Vercel Edge Function) |
-| No unit toggle (kg/lbs) | Add toggle and conversion throughout |
