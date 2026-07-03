@@ -31,3 +31,15 @@ HERCULES is a multi-page site for streetlifting, a strength sport combining cali
 - `RestTimer` and `WarmupGenerator` render their own card-based UI and update live (countdown ring, RPE-based rest recommendation, warmup pyramid) without any page reload.
 
 Every tool follows the same pattern: user input → recomputed data → cards re-rendered/updated in place.
+
+## Screenshots
+### Desktop
+![Desktop Screenshot 1](images/screenshots/screenshot1.png)
+![Desktop Screenshot 2](images/screenshots/screenshot2.png)
+![Desktop Screenshot 3](images/screenshots/screenshot3.png)
+![Desktop Screenshot 4](images/screenshots/screenshot4.png)
+
+### Mobile
+<img src="images/screenshots/m_ss1.jpeg" width="250" alt="Mobile Screenshot 1" style="margin-right:16px" />
+<img src="images/screenshots/m_ss2.jpeg" width="250" alt="Mobile Screenshot 2" style="margin-right:16px" />
+<img src="images/screenshots/m_ss3.jpeg" width="250" alt="Mobile Screenshot 3" />
