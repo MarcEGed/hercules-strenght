@@ -21,7 +21,8 @@ Used on the Lifts page to pull accessory exercises for each competition lift (e.
 **Some of what it got wrong:**
 - The content Claude filled up the pages was horrible: cheesy copy and headlines, absurd numbers as records and generic explanations for each benchmarks on the lifts.
 - The Warm-up generator was outputting 5+ sets by default, regardless if the input specified 50kg on a lift or 180kg+ which can be either really fatiguing without any benefits, or plain dangerous for the user.
-- 
+
+
 ## Project Description
 
 HERCULES is a multi-page site for streetlifting, a strength sport combining calisthenics and powerlifting (weighted pull-ups, weighted dips, barbell squat, weighted muscle-up). It has three pages:
